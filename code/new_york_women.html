@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5bd2172610b49ee99578ca16efc1374 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a5bd2172610b49ee99578ca16efc1374" ></div>
+        
+</body>
+<script>    
+    
+            var map_a5bd2172610b49ee99578ca16efc1374 = L.map(
+                "map_a5bd2172610b49ee99578ca16efc1374",
+                {
+                    center: [40.738, -73.98],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fdc947632cc04730bed49dd441cd3089 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+            var circle_marker_428b16b1f0b549769299c94db7ef953d = L.circleMarker(
+                [40.804428, -73.937449],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.182825466184488, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_0f69c2fecbda44df983d303688b6da6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f10745a3edf450b928d405684bb81fa = $(`<div id="html_2f10745a3edf450b928d405684bb81fa" style="width: 100.0%; height: 100.0%;">125th St</div>`)[0];
+            popup_0f69c2fecbda44df983d303688b6da6f.setContent(html_2f10745a3edf450b928d405684bb81fa);
+        
+
+        circle_marker_428b16b1f0b549769299c94db7ef953d.bindPopup(popup_0f69c2fecbda44df983d303688b6da6f)
+        ;
+
+        
+    
+    
+            var circle_marker_4204c1961a9549248ab7f3e9fb1b92ba = L.circleMarker(
+                [40.735065999999996, -73.990416],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.617379097095757, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_d8cb50d799ed4040aea67c0b46fe2b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e86cde807742c19acd2f81b00dafa3 = $(`<div id="html_55e86cde807742c19acd2f81b00dafa3" style="width: 100.0%; height: 100.0%;">14th St-Union Square</div>`)[0];
+            popup_d8cb50d799ed4040aea67c0b46fe2b75.setContent(html_55e86cde807742c19acd2f81b00dafa3);
+        
+
+        circle_marker_4204c1961a9549248ab7f3e9fb1b92ba.bindPopup(popup_d8cb50d799ed4040aea67c0b46fe2b75)
+        ;
+
+        
+    
+    
+            var circle_marker_e7188b722f254da2adeb3f2eaff0f46d = L.circleMarker(
+                [40.743942, -73.995605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.009871243382419, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_148d5e7694764fb3b3f899e38829ed83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ff842c4ee54a45a1ce8a06f4d5e8e2 = $(`<div id="html_28ff842c4ee54a45a1ce8a06f4d5e8e2" style="width: 100.0%; height: 100.0%;">23rd St</div>`)[0];
+            popup_148d5e7694764fb3b3f899e38829ed83.setContent(html_28ff842c4ee54a45a1ce8a06f4d5e8e2);
+        
+
+        circle_marker_e7188b722f254da2adeb3f2eaff0f46d.bindPopup(popup_148d5e7694764fb3b3f899e38829ed83)
+        ;
+
+        
+    
+    
+            var circle_marker_9aff6b9e3873414dbde0c46d49821150 = L.circleMarker(
+                [40.749834, -73.98808000000001],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.452117827406001, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_88870acdc18141fe850467835b2ecf7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f029f9846434e08be8456f5d3fdb403 = $(`<div id="html_9f029f9846434e08be8456f5d3fdb403" style="width: 100.0%; height: 100.0%;">34th St-Herald Square</div>`)[0];
+            popup_88870acdc18141fe850467835b2ecf7a.setContent(html_9f029f9846434e08be8456f5d3fdb403);
+        
+
+        circle_marker_9aff6b9e3873414dbde0c46d49821150.bindPopup(popup_88870acdc18141fe850467835b2ecf7a)
+        ;
+
+        
+    
+    
+            var circle_marker_06f0445647f2421b936885019a92a840 = L.circleMarker(
+                [40.750997, -73.99080500000001],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.399933261369576, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_cabc974f80154820989851365f7cf965 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23763ed3cba54191aec4100d362331f7 = $(`<div id="html_23763ed3cba54191aec4100d362331f7" style="width: 100.0%; height: 100.0%;">34th St-Penn Station</div>`)[0];
+            popup_cabc974f80154820989851365f7cf965.setContent(html_23763ed3cba54191aec4100d362331f7);
+        
+
+        circle_marker_06f0445647f2421b936885019a92a840.bindPopup(popup_cabc974f80154820989851365f7cf965)
+        ;
+
+        
+    
+    
+            var circle_marker_895c694594a04535a6caace0aa63996f = L.circleMarker(
+                [40.757483, -73.98945400000001],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.715928752257764, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_54653d80d1d243379909e78cb883d491 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3bc9ceeb8be4e5cab811583b830b9e0 = $(`<div id="html_a3bc9ceeb8be4e5cab811583b830b9e0" style="width: 100.0%; height: 100.0%;">Port author - 42nd St</div>`)[0];
+            popup_54653d80d1d243379909e78cb883d491.setContent(html_a3bc9ceeb8be4e5cab811583b830b9e0);
+        
+
+        circle_marker_895c694594a04535a6caace0aa63996f.bindPopup(popup_54653d80d1d243379909e78cb883d491)
+        ;
+
+        
+    
+    
+            var circle_marker_da7559a3d3d14054b68425f279a3135a = L.circleMarker(
+                [40.762397, -73.968321],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.443894492845718, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_c18e60f0efb746aeb125980f6a32bc7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0869e3770a0427db6f3c6070464cb87 = $(`<div id="html_d0869e3770a0427db6f3c6070464cb87" style="width: 100.0%; height: 100.0%;">59th St</div>`)[0];
+            popup_c18e60f0efb746aeb125980f6a32bc7d.setContent(html_d0869e3770a0427db6f3c6070464cb87);
+        
+
+        circle_marker_da7559a3d3d14054b68425f279a3135a.bindPopup(popup_c18e60f0efb746aeb125980f6a32bc7d)
+        ;
+
+        
+    
+    
+            var circle_marker_eb4ae0fd10204eb581d83713d0c745d0 = L.circleMarker(
+                [40.768246999999995, -73.98192900000001],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.8304161836148225, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_b636cb32fbee4a95bb13ec2f1eb94aae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f9321378ba446991c05fd2863c12ad = $(`<div id="html_77f9321378ba446991c05fd2863c12ad" style="width: 100.0%; height: 100.0%;">59th St-Columbus C</div>`)[0];
+            popup_b636cb32fbee4a95bb13ec2f1eb94aae.setContent(html_77f9321378ba446991c05fd2863c12ad);
+        
+
+        circle_marker_eb4ae0fd10204eb581d83713d0c745d0.bindPopup(popup_b636cb32fbee4a95bb13ec2f1eb94aae)
+        ;
+
+        
+    
+    
+            var circle_marker_962092fce3d8472d9e11b4b145653b30 = L.circleMarker(
+                [40.779492, -73.955589],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3257403494642315, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_4892854971ab4e148a40e19b0538e3d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5914364f108247c09a5d73b9d73c9aaa = $(`<div id="html_5914364f108247c09a5d73b9d73c9aaa" style="width: 100.0%; height: 100.0%;">86th St</div>`)[0];
+            popup_4892854971ab4e148a40e19b0538e3d8.setContent(html_5914364f108247c09a5d73b9d73c9aaa);
+        
+
+        circle_marker_962092fce3d8472d9e11b4b145653b30.bindPopup(popup_4892854971ab4e148a40e19b0538e3d8)
+        ;
+
+        
+    
+    
+            var circle_marker_e90b9b93aa5b4624980e65d0f3136528 = L.circleMarker(
+                [40.785804, -73.950912],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.4031237479908025, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_8c78691ffaf143f88e3623e66113c7e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59f1abcbbbc444ca183819fbe898e33 = $(`<div id="html_b59f1abcbbbc444ca183819fbe898e33" style="width: 100.0%; height: 100.0%;">96th St</div>`)[0];
+            popup_8c78691ffaf143f88e3623e66113c7e8.setContent(html_b59f1abcbbbc444ca183819fbe898e33);
+        
+
+        circle_marker_e90b9b93aa5b4624980e65d0f3136528.bindPopup(popup_8c78691ffaf143f88e3623e66113c7e8)
+        ;
+
+        
+    
+    
+            var circle_marker_0ccf3e45d6184f08836c5e1f69bdec36 = L.circleMarker(
+                [40.718574, -74.00056],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.027985136153074, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_fcf1ccc1f1cf47cc9527cc0b79779af3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f92f7ba4aedc4f50bd89e664f3d24d77 = $(`<div id="html_f92f7ba4aedc4f50bd89e664f3d24d77" style="width: 100.0%; height: 100.0%;">Canal St          </div>`)[0];
+            popup_fcf1ccc1f1cf47cc9527cc0b79779af3.setContent(html_f92f7ba4aedc4f50bd89e664f3d24d77);
+        
+
+        circle_marker_0ccf3e45d6184f08836c5e1f69bdec36.bindPopup(popup_fcf1ccc1f1cf47cc9527cc0b79779af3)
+        ;
+
+        
+    
+    
+            var circle_marker_723eda5ba1e345c18584a8c367975555 = L.circleMarker(
+                [40.7596, -73.83003000000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_ab24cbedd1e54fd096dcf3bc2f8d93ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce55cb65b0c648dc983a90bdfade3491 = $(`<div id="html_ce55cb65b0c648dc983a90bdfade3491" style="width: 100.0%; height: 100.0%;">Flushing-Main St  </div>`)[0];
+            popup_ab24cbedd1e54fd096dcf3bc2f8d93ef.setContent(html_ce55cb65b0c648dc983a90bdfade3491);
+        
+
+        circle_marker_723eda5ba1e345c18584a8c367975555.bindPopup(popup_ab24cbedd1e54fd096dcf3bc2f8d93ef)
+        ;
+
+        
+    
+    
+            var circle_marker_c91dc2b1e90f459992cf067bcc3e7e2c = L.circleMarker(
+                [40.710459, -74.009326],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.459482801077333, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_f4680e86d50d4a1fb8eb8a28cd96dc99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08f5aebd31174d8fb26b1afd119a5ab0 = $(`<div id="html_08f5aebd31174d8fb26b1afd119a5ab0" style="width: 100.0%; height: 100.0%;">Fulton St         </div>`)[0];
+            popup_f4680e86d50d4a1fb8eb8a28cd96dc99.setContent(html_08f5aebd31174d8fb26b1afd119a5ab0);
+        
+
+        circle_marker_c91dc2b1e90f459992cf067bcc3e7e2c.bindPopup(popup_f4680e86d50d4a1fb8eb8a28cd96dc99)
+        ;
+
+        
+    
+    
+            var circle_marker_15594834db8b4a1ebc1b8d8f4d7b8823 = L.circleMarker(
+                [40.752476, -73.978137],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.647598915363682, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_59bd3e8bebed47c7917bb8b0761127b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f09e597687d34e5fb2d8bb4107d22c69 = $(`<div id="html_f09e597687d34e5fb2d8bb4107d22c69" style="width: 100.0%; height: 100.0%;">Grand Central-42nd</div>`)[0];
+            popup_59bd3e8bebed47c7917bb8b0761127b0.setContent(html_f09e597687d34e5fb2d8bb4107d22c69);
+        
+
+        circle_marker_15594834db8b4a1ebc1b8d8f4d7b8823.bindPopup(popup_59bd3e8bebed47c7917bb8b0761127b0)
+        ;
+
+        
+    
+    
+            var circle_marker_335616ecdda14ad5bb7f105a5f3cb2a3 = L.circleMarker(
+                [40.755315, -73.98682600000001],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.389416617049495, "stroke": true, "weight": 3}
+            ).addTo(map_a5bd2172610b49ee99578ca16efc1374);
+        
+    
+        var popup_ee0e338d70c844458ee68ba54e4d67c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c74647cebf4e52b1faef5fab2656a4 = $(`<div id="html_92c74647cebf4e52b1faef5fab2656a4" style="width: 100.0%; height: 100.0%;">Times Square-42nd</div>`)[0];
+            popup_ee0e338d70c844458ee68ba54e4d67c9.setContent(html_92c74647cebf4e52b1faef5fab2656a4);
+        
+
+        circle_marker_335616ecdda14ad5bb7f105a5f3cb2a3.bindPopup(popup_ee0e338d70c844458ee68ba54e4d67c9)
+        ;
+
+        
+    
+</script>
